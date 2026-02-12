@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Zone | Suplementación Deportiva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="overlay"></div>
+      <nav class="topbar">
+        <h1>SPORT ZONE</h1>
+        <a href="https://www.suplementoscolo.com.ar/" target="_blank" rel="noopener noreferrer">Proveedor</a>
+      </nav>
+      <section class="hero-content">
+        <p class="tag">Entrená fuerte. Alimentate mejor.</p>
+        <h2>Suplementos para potenciar tu rendimiento</h2>
+        <p>
+          Precios calculados a partir del valor <strong>POR TRANSFERENCIA</strong> del proveedor +
+          <strong>$5.000</strong> de margen.
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <section class="controls">
+        <input id="searchInput" type="search" placeholder="Buscar producto..." />
+        <select id="categoryFilter">
+          <option value="all">Todas las categorías</option>
+        </select>
+      </section>
+
+      <section id="productsGrid" class="products-grid"></section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Sport Zone · Venta mayorista y minorista de suplementación.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
